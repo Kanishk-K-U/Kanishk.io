@@ -1263,3 +1263,17 @@ footer .credits a {
     bottom: 15px;
   }
 }
+a {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Darker background on mouse-over */
+a:hover {
+  background-color: #7a7a7a71;
+  color: rgb(0, 0, 0);
+}
