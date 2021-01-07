@@ -1263,17 +1263,19 @@ footer .credits a {
     bottom: 15px;
   }
 }
-a {
+
+/* Style buttons */
+.btn {
   background-color: rgb(0, 0, 0);
   border: none;
   color: white;
-  padding: 8px 25px;
+  padding: 12px 30px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* Darker background on mouse-over */
-a:hover {
+.btn:hover {
   background-color: #7a7a7a71;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0)
 }
